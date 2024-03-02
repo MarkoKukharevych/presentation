@@ -7,6 +7,8 @@ body {
     padding: 0 15px;
 }
 
+/* about */
+
 .about {
     display: flex;
     justify-content: center;
@@ -28,4 +30,52 @@ body {
     text-transform: uppercase;
     width: 696px;
     margin: 0 auto;
+}
+
+/* work */
+
+.work {
+    display: flex;
+    align-items: center;
+}
+
+.work__title {
+    color: black;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 136.364%;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.work__list {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.work__item {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 171.429%;
+    letter-spacing: 0.42px;
+    width: 300px;
+}
+
+.work__item:first-child {
+    width: 200px;
+}
+
+.work__img {
+    display: block;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
 }

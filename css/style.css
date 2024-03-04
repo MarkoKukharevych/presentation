@@ -79,3 +79,123 @@ body {
     background-position: center;
     width: 100px;
 }
+
+/* use */
+
+.use {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.use__title {
+    color: black;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 136.364%;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.use__div {
+    display: flex;
+    justify-content: center;
+}
+
+.use__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.use__item {
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+}
+
+.use__subtitle {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 171.429%;
+    letter-spacing: 0.42px;
+    width: 300px;
+}
+
+.use__img {
+    display: block;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150px;
+    margin-top: 50px;
+}
+
+.utilites__img {
+    display: block;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80px;
+    margin-top: 45px;
+}
+
+.use__list-utilites {}
+
+.use__item-utilites {
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+}
+
+/* thanks */
+
+.thanks {
+    display: flex;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(252, 232, 0, 1) 0%, rgba(45, 55, 200, 1) 100%);
+    height: 450px;
+    margin-top: 50px;
+}
+
+.thanks__title {
+    color: #FFF;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 136.364%;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 150px;
+}
+
+.thanks__button {
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+}
+
+.thanks__button:hover {
+    background-color: orange;
+    border: transparent;
+    color: #FFF;
+}
